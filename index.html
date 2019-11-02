@@ -39,7 +39,7 @@
         margin-top: 100px;
         width: 750px;
         background-color: white;
-        border: 1px solid #008080;
+        border: 2px solid #008080;
         padding: 30px;
         text-align: left;
       }
@@ -47,8 +47,19 @@
         display: flex;
         color: #484848;
       }
+      li{
+        cursor: pointer;
+      }
     </style>
-
+    <script>
+      $(document).ready(function(){
+        $("li").hover(function(){
+          $(this).addClass("active")
+        },function(){
+          $(this).removeClass("active")
+        });
+      });
+    </script>
   </head>
   <body>
 
@@ -60,9 +71,9 @@
         <h4 class="card-title">Axel Ericsson</h4>
       </div>
        <ul class="center list-group list-group-flush">
-         <li class="list-group-item">Content will</li>
-         <li class="list-group-item">appear here</li>
-         <li class="list-group-item">eventually</li>
+         <li class="list-group-item active">Posts</li>
+         <li class="list-group-item">Haven't figured out what to put here</li>
+         <li class="list-group-item">Haven't figured out what to put here</li>
        </ul>
        <div class="card-body center">
          <a href="https://twitter.com/ericsson_axel" class="card-link">@ericssonaxel</a>
