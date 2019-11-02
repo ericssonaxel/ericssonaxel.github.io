@@ -13,31 +13,76 @@
         margin-right: auto;
         text-align: center;
       }
-      #main-card{
-        margin-top: 40px;
+      .sidebar{
+        float:left;
+        width: 30%;
+        height: 100vh;
+        border-right: 1px solid #008080;
+        background-color: white;
+      }
+      .profile-pic{
+        width: 100%;
+        border: 1px solid #008080;
+      }
+      .profile-pic-container{
+        margin:30px;
+      }
+      .name{
+        margin:20px;
+      }
+      .rest{
+        height: 100vh;
+        width: 100%;
+        background-color: #e8e8e8;
+      }
+      .article{
+        margin-top: 100px;
+        width: 750px;
+        background-color: white;
+        border: 1px solid #008080;
+        padding: 30px;
+        text-align: left;
+      }
+      body{
+        display: flex;
+        color: #484848;
       }
     </style>
 
   </head>
   <body>
 
+    <div class="sidebar">
+      <div class="center profile-pic-container">
+        <img class="profile-pic" src="https://pbs.twimg.com/profile_images/987463690201976832/1j_TrJGS_400x400.jpg" alt="https://pbs.twimg.com/profile_images/987463690201976832/1j_TrJGS_400x400.jpg">
+      </div>
+      <div class="center name">
+        <h4 class="card-title">Axel Ericsson</h4>
+      </div>
+       <ul class="center list-group list-group-flush">
+         <li class="list-group-item">Content will</li>
+         <li class="list-group-item">appear here</li>
+         <li class="list-group-item">eventually</li>
+       </ul>
+       <div class="card-body center">
+         <a href="https://twitter.com/ericsson_axel" class="card-link">@ericssonaxel</a>
+         <a href="mailto:axel@evm.com" class="card-link">axel@evm.com</a>
+     </div>
+    </div>
 
-  <div class="card center" id="main-card" style="width: 18rem;">
-    <img src="https://pbs.twimg.com/profile_images/987463690201976832/1j_TrJGS_400x400.jpg" class="card-img-top" alt="https://pbs.twimg.com/profile_images/987463690201976832/1j_TrJGS_400x400.jpg">
-    <div class="card-body">
-      <h5 class="card-title">Axel Ericsson</h5>
-      <p class="card-text">Shoot me an email!</p>
+    <div class="rest">
+      <div class="article center">
+        <h3>Risky business</h3>
+        <i>November 2019</i>
+        <br>
+        <br>
+        <p>Working on my first startup, I would often hear comments that what we were doing was too “risky”. Of course, there wasn’t any actual risk to what we were doing; success meant fantastic returns on the time and money put into the company, and failure meant nothing more than the absence of that success. At no point could we have ended up in debt by the same amount that we stood to gain. Instead, the word “risky” actually meant “unlikely”, and the comments about risk were often veiled (and sometimes shrewd) comments about the current path the company was going down.</p>
+        <p>This got me thinking about risk and (mis)conceptions about risk. Clearly, the risk inherent to startups is different from other risks we are used to – startups have high potential upside and bounded downside. This is categorically different from Double or Nothing style bets where you stand to lose the same amount you stand to gain. You can even go further and say that the downside of a startup is really just the opportunity cost of working on a specific idea, meaning that using the word risk – as a phrase to mean a distribution over positive and negative outcomes – is misleading; unless the opportunity cost is huge, we’re really only talking about a distribution over positive outcomes!</p>
+        <p>If anything, startup risk seems good, in the sense that what you do either works, or you try again. So why the aversion to it? I think it has to do with the way downside feels, rather than the absolute magnitude of it. Hear me out:</p>
+        <p>People tend to upgrade their lifestyles to match their post-tax earnings. This is another way of saying that the average person runs a low margin enterprise. Because of this, any lost income will feel worse than it actually is, because it entails a loss to your quality of life. If this behavior is pervasive, a society may develop an irrationally strong aversion to all types of risk – the good ones included. It seems likely that this type of aversion, consisting of countless comments and advice about not doing risky things, may also result in a narrative about how chasing any unlikely outcome is bad.</p>
+        <p>If I’m correct, and there really was irrational aversion towards lopsided risk, the question would be whether lopsided outcomes are broadly and consistently undervalued as opportunities.</p>
+      </div>
     </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Content will</li>
-      <li class="list-group-item">appear here</li>
-      <li class="list-group-item">eventually</li>
-    </ul>
-    <div class="card-body">
-      <a href="https://twitter.com/ericsson_axel" class="card-link">@ericssonaxel</a>
-      <a href="mailto:axel@evm.com" class="card-link">axel@evm.com</a>
-    </div>
-  </div>
 
 
   </body>
