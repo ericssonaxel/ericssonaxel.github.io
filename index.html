@@ -1,97 +1,101 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Axel Ericsson</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>@axel</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="camphor.css">
 
     <style>
+      body {
+        font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: rgb(232,232,232);
+        color: #425466;
+      }
       .center{
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
       }
-      .sidebar{
-        float:left;
-        width: 30%;
-        height: 100vh;
-        border-right: 1px solid #008080;
-        background-color: white;
+      .container{
+        width: 700px;
       }
-      .profile-pic{
+      .content{
         width: 100%;
-        border: 1px solid #008080;
+        border: 0px solid black;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 18px;
+        margin-top: 30px;
       }
-      .profile-pic-container{
-        margin:30px;
+      .content-inner{
+        padding: 40px;
       }
-      .name{
-        margin:20px;
-      }
-      .rest{
-        height: 100vh;
-        width: 100%;
-        background-color: #e8e8e8;
-      }
-      .article{
+      .navbar{
         margin-top: 100px;
-        width: 750px;
-        background-color: white;
-        border: 2px solid #008080;
-        padding: 30px;
-        text-align: left;
+        width: 100%;
+        border: 0px solid black;
+        height: 40px;
       }
-      body{
-        display: flex;
-        color: #484848;
+      .navbar-btn{
+        margin: 10px;
       }
-      li{
-        cursor: pointer;
+      .title{
+        font-weight:700;
+        font-size: 48px;
+        margin: auto auto 0px auto;
+      }
+      .subtitle{
+        margin: 10px auto auto auto;
+      }
+      .banner{
+        margin: 50px auto 30px auto;
+        height: 310px;
+      }
+      .right{float:right;}
+      .left{float:left;}
+      p{
+        line-height: 26px;
       }
     </style>
+
     <script>
       $(document).ready(function(){
-        $("li").hover(function(){
-          $(this).addClass("active")
-        },function(){
-          $(this).removeClass("active")
-        });
+        console.log("hello");
       });
     </script>
+
   </head>
   <body>
 
-    <div class="sidebar">
-      <div class="center profile-pic-container">
-        <img class="profile-pic" src="https://pbs.twimg.com/profile_images/987463690201976832/1j_TrJGS_400x400.jpg" alt="https://pbs.twimg.com/profile_images/987463690201976832/1j_TrJGS_400x400.jpg">
-      </div>
-      <div class="center name">
-        <h4 class="card-title">Axel Ericsson</h4>
-      </div>
-       <ul class="center list-group list-group-flush">
-         <li class="list-group-item active">Posts</li>
-         <li class="list-group-item">Haven't figured out what to put here</li>
-         <li class="list-group-item">Haven't figured out what to put here</li>
-       </ul>
-       <div class="card-body center">
-         <a href="https://twitter.com/ericsson_axel" class="card-link">@ericssonaxel</a>
-         <a href="mailto:axel@evm.com" class="card-link">axel@evm.com</a>
-     </div>
-    </div>
+    <div class="container center">
+      <div class="navbar">
 
-    <div class="rest">
-      <div class="article center">
-        <!--
-        <h3>Risky business</h3>
-        <i>November 2019</i>
-        <br>
-        <br>
-      -->
-      </div>
-    </div>
+          <button type="button" class="navbar-btn right">Home</button>
+          <button type="button" class="navbar-btn right">Posts</button>
+          <button type="button" class="navbar-btn right">About</button>
+          <button type="button" class="navbar-btn right">Twitter</button>
 
+      </div>
+      <div class="content">
+        <div class="content-inner">
+          <h1 class="title">Lorem ipsum</h1>
+          <h3 class="subtitle">Ipsum dolor sit amet</h3>
+
+          <img class="banner" src="banner.png" alt="">
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        </div>
+    </div>
 
   </body>
 </html>
