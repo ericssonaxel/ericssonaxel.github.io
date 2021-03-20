@@ -1,0 +1,50 @@
+
+    @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=c6bd3b22-acdd-49e0-a0c5-6bc1be2957f3&fontids=793296,793299,793302,793305,793308,793311,793314,793317,793320,793323,793326,793329");
+    @font-face{
+        font-family:"Camphor W01 Thin";
+        src:url("Fonts/793296/1cec88ec-2f96-4151-ad20-c050fb96480d.woff2") format("woff2"),url("Fonts/793296/9436cceb-9bae-456c-9630-fde57ba02fe6.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Camphor W01 Thin Italic";
+        src:url("Fonts/793299/fb4b27cd-72c2-4eba-8142-55bee8515a8f.woff2") format("woff2"),url("Fonts/793299/8df7d6c2-4f28-4d86-a7fd-6d97aa5c7a14.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Camphor W01 Light";
+        src:url("Fonts/793302/942a0868-4392-4c69-85fa-6d77a3716d9b.woff2") format("woff2"),url("Fonts/793302/9ff183ce-5d21-45c8-87f7-cc6a34c12be7.woff") format("woff");
+    }
+    @font-face{
+        font-family:"CamphorW01-LightItalic";
+        src:url("Fonts/793305/981fcb88-3653-4ae9-b0ec-1a2181132fbc.woff2") format("woff2"),url("Fonts/793305/455fc5ad-7ada-4572-acb1-f01e75089be1.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Camphor W01 Regular";
+        src:url("Fonts/793308/7afb413d-536f-439c-bcca-ba53e24cda07.woff2") format("woff2"),url("Fonts/793308/4eea462d-03c9-489a-a928-185525ee60b0.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Camphor W01 Italic";
+        src:url("Fonts/793311/307b7ac4-b3ef-4d81-a02e-38ce883a45db.woff2") format("woff2"),url("Fonts/793311/2158da83-8b4a-43bf-8a72-674f0e6dd62e.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Camphor W01 Medium";
+        src:url("Fonts/793314/b94e9ece-f9bc-4208-9336-9cc0b44aee89.woff2") format("woff2"),url("Fonts/793314/cad49c2a-ff92-4482-ac39-b71dbad15a8f.woff") format("woff");
+    }
+    @font-face{
+        font-family:"CamphorW01-MediumItalic";
+        src:url("Fonts/793317/44f020ac-ca8b-44c0-83f2-455160b2423f.woff2") format("woff2"),url("Fonts/793317/65539e5e-3000-4f72-ae28-26b2a7fac74c.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Camphor W01 Bold";
+        src:url("Fonts/793320/30a72170-8872-4260-8db3-dc070ad9d5ac.woff2") format("woff2"),url("Fonts/793320/f4e7a76f-8831-4641-87b8-d45d17b148cc.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Camphor W01 Bold Italic";
+        src:url("Fonts/793323/d50cd608-e926-4d34-8f6c-f26e9daebc97.woff2") format("woff2"),url("Fonts/793323/a95f4858-cc01-4c23-b7b8-30ef8f69d6d2.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Camphor W01 Heavy";
+        src:url("Fonts/793326/d1072277-d2f5-47da-a064-8d90d0ce42dd.woff2") format("woff2"),url("Fonts/793326/daea7840-3807-4f33-a94b-f2b0f16893f0.woff") format("woff");
+    }
+    @font-face{
+        font-family:"CamphorW01-HeavyItalic";
+        src:url("Fonts/793329/abefefc6-f01c-487f-b3b4-3217bd0dbb01.woff2") format("woff2"),url("Fonts/793329/3cd55927-934a-430b-a65b-72f0299de9f7.woff") format("woff");
+    }
